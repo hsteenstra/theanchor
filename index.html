@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Anchor | Morse High School Student Newspaper</title>
+  <meta name="description" content="The Anchor is the student newspaper of Morse High School in Bath, Maine.">
+  <meta name="theme-color" content="#1f4fbf">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&family=Playfair+Display:ital,wght@0,800;1,700;1,800&family=Abril+Fatface&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=18">
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+  <main id="main">
+    <section class="section" id="news"><div class="wrap">
+      <div class="sec-head"><h2>Top Stories</h2></div>
+      <div class="top-grid" id="top-stories"></div>
+    </div></section>
+
+    <section class="section" id="pop-section"><div class="wrap">
+      <div class="sec-head"><h2>Pop Culture</h2><a href="pop-culture.html">All columns →</a></div>
+      <div id="pop-culture"></div>
+    </div></section>
+
+    <section class="section"><div class="wrap">
+      <div class="countdown" id="countdown">
+        <div>
+          <span class="kicker">Countdown</span>
+          <h2>Until <span id="cd-name">break</span></h2>
+          <p id="cd-date"></p>
+        </div>
+        <div class="clock" aria-live="off">
+          <div><b id="cd-d">00</b><span>Days</span></div>
+          <div><b id="cd-h">00</b><span>Hours</span></div>
+          <div><b id="cd-m">00</b><span>Min</span></div>
+          <div><b id="cd-s">00</b><span>Sec</span></div>
+        </div>
+      </div>
+    </div></section>
+
+    <section class="section" id="podcast-section"><div class="wrap">
+      <div class="sec-head"><h2>The Anchor Podcast</h2><a href="podcast.html">All episodes →</a></div>
+      <div id="podcast"></div>
+    </div></section>
+
+    <section class="section" id="poll"><div class="wrap">
+      <div class="duo">
+        <div>
+          <div class="sec-head"><h2>Poll of the Week</h2></div>
+          <div class="box" id="weekly-poll"></div>
+        </div>
+        <div>
+          <div class="sec-head"><h2>Pitch Us a Story</h2><a href="submit.html">Full form →</a></div>
+          <div class="box">
+            <h3>What should we write about next?</h3>
+            <p>Tell us what's going on at Morse.</p>
+            <form id="pitch-form">
+              <label class="field">Your idea<textarea name="idea" required placeholder="The robotics team built a…"></textarea></label>
+              <label class="field">Your name <small>(optional)</small><input name="name" autocomplete="name"></label>
+              <button class="btn" type="submit">Send pitch</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div></section>
+
+    <section class="section"><div class="wrap">
+      <div class="sec-head"><h2>Archives</h2><a href="archives.html">Browse →</a></div>
+      <p class="byline">Older editions will show up here after Edition II comes out.</p>
+    </div></section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="data.js?v=18"></script>
+  <script src="app.js?v=18"></script>
+</body>
+</html>
