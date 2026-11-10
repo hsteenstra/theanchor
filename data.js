@@ -18,9 +18,8 @@ window.ANCHOR = {
   ],
 
   /* ---------- Story submissions ----------
-     Paste a Formspree URL (https://formspree.io/f/xxxx) here and the
-     "Pitch a Story" form will email you every submission.
-     Leave it empty and the form just shows a thank-you message. */
+    past formspree url that needs to be connected to charli's email
+    currently isn't connected
   submitEndpoint: "",
 
   /* ---------- Announcements (scrolling strip under the menu) ---------- */
@@ -43,10 +42,8 @@ window.ANCHOR = {
   /* ---------- Stories ----------
      The first story is the big one on the homepage.
      Stories with category "Pop Culture" skip Top Stories and go in the
-     Pop Culture section (Fred Waters' column). Give each column a short
-     "topics" list; it shows as "In this column" on the homepage.
-     "color" picks the placeholder block shown until you add a photo: blue, navy, sky, or steel.
-     Add "image": "images/your-photo.jpg" (and an optional "imageCaption") to use a real photo. */
+     Pop Culture section (Fred Waters' column). 
+     Add "image": "images/your-photo.jpg"  */
   stories: [
     {
       id: "confidence-has-no-dresscode",
