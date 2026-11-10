@@ -1,6 +1,4 @@
-/* =========================================================
-   THE ANCHOR: builds every page from data.js
-   ========================================================= */
+
 (function () {
   const A = window.ANCHOR;
   const $ = (sel, root = document) => root.querySelector(sel);
