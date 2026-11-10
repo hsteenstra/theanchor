@@ -1,7 +1,6 @@
 /* =========================================================
    THE ANCHOR: site content
-   Edit this file to add stories, podcast episodes, the weekly poll,
-   and school breaks. No other file needs to change.
+   edit this file to add stories/polls. this is the only file that needs to change. 
    ========================================================= */
 
 window.ANCHOR = {
