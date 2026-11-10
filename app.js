@@ -105,7 +105,7 @@
         <li><a href="about.html">About Us</a></li>
       </ul></div>
     </div>
-    <div class="f-bottom">© ${new Date().getFullYear()} The Anchor · Morse High School Student Press</div></footer>`;
+    <div class="f-bottom">© ${new Date().getFullYear()} The Anchor · Website Built by Harper Steenstra</div></footer>`;
 
   /* ---------- Countdown ---------- */
   function nextBreak() {
